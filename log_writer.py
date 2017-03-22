@@ -62,6 +62,13 @@ class LogWriter(object):
 		#return square root of 42 PLUS add
 		# if add is not given return 42 
 		#
+		if add == None:
+			res = 0
+			return res
+		res = math.sqrt(42) + add
+		
+		return res
+		
 		pass
 
 	@staticmethod
